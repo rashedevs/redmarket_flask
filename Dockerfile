@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.6 - slim
 WORKDIR /redmarket_flask
 COPY . .
 RUN pip install -r /redmarket_flask/requirements.txt
